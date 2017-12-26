@@ -1,0 +1,49 @@
+<view class='continer'>
+  <view class='swiper'>
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  </view> 
+  <view class='goodsmsg'>
+    <text class='msg-title'>短筒皮毛一体雪地靴</text>
+    <view class='msg-price'>
+        <text class='price-defalt'>￥169 </text>
+        <text class='price-huiyuan'>￥120 </text>
+    </view>
+  
+  </view>
+  <view class='choose-box'>
+      <view class='open-sku' bindtap='opensku'>数量规格选择</view>
+      <view class='open-server'>服务</view>
+      <text>{{title}}</text>
+  </view>
+  <view class='goods-parameter'>
+    <view class='parameter-title'>商品参数</view>
+    <view class='parameter-item'>
+        <view class='item-left'>名称</view>
+        <view class='item-right'>talemade掏干</view>
+    </view>
+    <view class='parameter-item'>
+        <view class='item-left'>尺码</view>
+        <view class='item-right'>超大、</view>
+    </view>
+    <view class='parameter-item'>
+        <view class='item-left'>材质</view>
+        <view class='item-right'>钛合金、</view>
+    </view>
+    <view class='parameter-item'>
+        <view class='item-left'>温馨提示</view>
+        <view class='item-right'>
+        1、太平洋联盟出售的商品，除明确质量问题外均不接受，不接受退换货
+        2、本产品不添加任何防腐剂、开封后请晶块食用</view>
+    </view>
+    <view class='parameter-goodsinfo'>
+      <image src='{{goodsinfo}}' bindload="imageLoad" style="width:{{imgwidth}}rpx; height:{{imgheight }}rpx;" ></image>
+    </view>
+  </view> 
+</view> 

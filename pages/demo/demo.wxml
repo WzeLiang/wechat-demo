@@ -1,0 +1,36 @@
+<view class='continer'>
+  <view class='search-box'>
+    <input type='text' placeholder='你不想要的也在这' bindfocus='tosearch'></input>
+  </view>
+  <view class='head'>
+      <image class='head-img' src='{{headsrc}}'></image>
+      <view class='head-sologen'>
+          <view class='sologan-item'>
+            <image src='../../images/check.png'></image>
+            网易自营品牌
+          </view>
+          <view class='sologan-item'>
+            <image src='../../images/check.png'></image>
+            30天无忧退货
+          </view>
+          <view class='sologan-item'>
+            <image src='../../images/check.png'></image>
+          48小时快速退款
+          </view>
+      </view> 
+  </view>
+  <view class='time-box'>
+    <navigator url='../gooddetail/gooddetail?title={{name}}'>
+        <image class='content-img' src='{{contentimg}}'></image>
+    </navigator>
+     <navigator url='../info/info'>
+        <image class='content-img' src='{{contentimg}}'></image>
+    </navigator>
+     <navigator url='../info/info'>
+        <image class='content-img' src='{{contentimg}}'></image>
+    </navigator>
+     <navigator url='../info/info'>
+        <image class='content-img' src='{{contentimg}}'></image>
+    </navigator>
+  </view>
+</view>

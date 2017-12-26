@@ -1,0 +1,54 @@
+/* pages/demo/demo.wxss */
+.continer{
+  background: #f4f4f4;
+ 
+}
+.search-box{
+  width: 100%;
+  background: white;
+  padding: 2% 5%;
+  text-align: center;
+}
+.search-box input{
+  border: solid 1px #eaeaea;
+  height:60rpx;
+  width: 90%;
+  border-radius: 30rpx;
+  text-indent: 20rpx;
+  padding-left: 20rpx;
+}
+
+.head .head-img{
+  width: 750rpx;
+  height:420rpx;
+
+}
+.head .head-sologen{
+  margin: 0;
+  width: 100%;
+  padding-bottom: 10rpx; 
+  background: white
+}
+.sologan-item{
+  text-align: center;
+  width: 250rpx;
+  display: inline-block;
+  font-size: 25rpx;
+  line-height: 25rpx;
+}
+.sologan-item image{
+  width: 35rpx;
+  height: 35rpx;
+  vertical-align: middle
+}
+.time-box{
+   padding-left:20rpx;
+   padding-right:20rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+.content-img{
+  width: 100%;
+  height: 380rpx;
+  margin-top: 20rpx;
+}

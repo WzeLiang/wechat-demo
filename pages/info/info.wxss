@@ -1,0 +1,78 @@
+/* pages/info/info.wxss */
+.continer{
+  background: #f4f4f4;
+}
+.swiper{
+  width: 100%;
+  height: 600rpx;
+}
+swiper{
+  width: 100%;
+  height:600rpx;
+}
+swiper-item{
+  width: 100%;
+  height: 100%;
+}
+swiper-item image{
+  width: 100%;
+  height: 100%;
+}
+.goodsmsg{
+  background: white;
+  padding: 20rpx;
+}
+.goodsmsg .msg-title{
+  font-size: 48rpx;
+  font-family: PingFangSC-Light,helvetica,'Heiti SC';
+}
+.goodsmsg .msg-price{
+  margin-top: 10rpx;
+}
+.goodsmsg .msg-price .price-defalt{
+  color: red;
+}
+.choose-box{
+  background: white;
+  font-size: 30rpx;
+  margin: 20rpx 0;
+}
+.choose-box .open-sku{
+  padding: 20rpx;
+  border-bottom: 1px solid #f4f4f4;
+}
+.choose-box .open-server{
+padding: 20rpx;
+}
+.goods-parameter{
+  width: 100%;
+  background: white;
+}
+.goods-parameter .parameter-title{
+  font-size: 40rpx;
+}
+.goods-parameter .parameter-item{
+  border-top: 1rpx #eaeaea solid;
+  font-size: 0;
+  padding: 10rpx 0;
+}
+.goods-parameter .parameter-item .item-left{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  font-size: 30rpx;
+  vertical-align: top;
+}
+.goods-parameter .parameter-item .item-right{
+  display: inline-block;
+  width: 70%;
+  font-size: 30rpx;
+  text-align: left;
+}
+/* .goods-parameter .parameter-goodsinfo image{
+  height: 100%;
+  width: 100%;
+}
+.goods-parameter .parameter-goodsinfo{
+  height: 2000rpx;
+} */
